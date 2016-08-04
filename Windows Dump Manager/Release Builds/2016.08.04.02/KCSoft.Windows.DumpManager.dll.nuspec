@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>KCSoft.Windows.DumpManager.dll</id>
+    <version>2016.08.04.02</version>
+    <authors>Kunal Chowdhury</authors>
+    <owners>Kunal Chowdhury</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the Windows Dump Manager to help developers capture dumps of any process. Call "Dumper.WriteDumpForProcess" method, passing the required parameters to it.</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>.NET C# Windows VisualStudio</tags>
+  </metadata>
+</package>
