@@ -5,3 +5,9 @@
 *.suo
 */bin/*
 */obj/*
+/projects/KCSoft.Windows.Helpers.Console/bin/Release
+/projects/KCSoft.Windows.Helpers.Dump/bin/Release
+/projects/KCSoft.Windows.Helpers.Process/bin/Release
+/projects/KCSoft.Windows.Helpers.Process/obj/Release
+/projects/KCSoft.Windows.Helpers.Dump/obj/Release
+/projects/KCSoft.Windows.Helpers.Console/obj/Release
