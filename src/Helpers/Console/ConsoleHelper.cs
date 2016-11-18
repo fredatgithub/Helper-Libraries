@@ -3,6 +3,7 @@ namespace KCSoft.Windows.Helpers.Console
 {
     using System.Collections.Specialized;
     using System.Diagnostics;
+    using System.Runtime.InteropServices;
     using System.Text.RegularExpressions;
 
     [Guid("9032154E-151C-40C3-9F6F-073D49DB738A")]

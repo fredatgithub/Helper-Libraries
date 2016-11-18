@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Process Manager")]
+[assembly: AssemblyTitle("KCSoft.Windows.Helpers.Console")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("www.kunal-chowdhury.com")]
-[assembly: AssemblyProduct("Process Manager")]
-[assembly: AssemblyCopyright("Copyright © 2016, Kunal Chowdhury")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("KCSoft.Windows.Helpers.Console")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3d9ce092-046f-419b-9c62-65377c0a0d8e")]
+[assembly: Guid("afb5ace3-7029-4cad-8ba9-00c0e64fbf46")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2016.09.05.0")]
-[assembly: AssemblyFileVersion("2016.09.05.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

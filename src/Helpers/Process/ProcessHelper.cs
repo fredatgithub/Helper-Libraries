@@ -2,6 +2,7 @@
 namespace KCSoft.Windows.Helpers.Process
 {
     using System.Diagnostics;
+    using System.Runtime.InteropServices;
 
     [Guid("EC75486A-1ED2-4510-BF9D-4487916310A2")]
     public sealed class ProcessHelper

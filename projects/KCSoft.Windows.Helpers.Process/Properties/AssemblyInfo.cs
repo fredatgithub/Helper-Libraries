@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Windows Dump Manager")]
+[assembly: AssemblyTitle("KCSoft.Windows.Helpers.Process")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("www.kunal-chowdhury.com")]
-[assembly: AssemblyProduct("Windows Dump Manager")]
-[assembly: AssemblyCopyright("Copyright © 2016, Kunal Chowdhury")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("KCSoft.Windows.Helpers.Process")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("90541b4f-656c-4218-9e23-f7dd3a13e6e8")]
+[assembly: Guid("3a7df2ad-0a3e-4509-8d05-d8956b0ccbc9")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2016.09.05.0")]
-[assembly: AssemblyFileVersion("2016.09.05.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
