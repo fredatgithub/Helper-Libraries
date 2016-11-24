@@ -1,4 +1,6 @@
-﻿using WinLab.Windows.Helpers.IO.Enums;
+﻿using System;
+using WinLab.Windows.Helpers.IO.Enums;
+using WinLab.Windows.Helpers.IO.Extensions;
 
 namespace WinLab.Windows.Helpers.IO.Models
 {
@@ -67,6 +69,18 @@ namespace WinLab.Windows.Helpers.IO.Models
         public override int GetHashCode()
         {
             return Bits.GetHashCode();
+        }
+
+        public string ToString(string format, FileSizeSymbolType type = FileSizeSymbolType.Short)
+        {
+            if (format.Equals("b")) { return this.ConvertToBits(type); }
+            if (format.Equals("B")) { return this.ConvertToBytes(type); }
+            if (format.Equals("KB")) { return this.ConvertToKiloBytes(type); }
+            if (format.Equals("MB")) { return this.ConvertToMegaBytes(type); }
+            if (format.Equals("GB")) { return this.ConvertToGigaBytes(type); }
+            if (format.Equals("TB")) { return this.ConvertToTeraBytes(type); }
+
+            throw new ArgumentException("Provide a valid format parameter.");
         }
 
         public static FileSize operator +(FileSize fileSizeOne, FileSize fileSizeTwo)
