@@ -34,6 +34,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\src\Helpers\IO\AssemblyFileHelper.cs">
+      <Link>AssemblyFileHelper.cs</Link>
+    </Compile>
     <Compile Include="..\..\src\Helpers\IO\Enums\FileSizeSymbolType.cs">
       <Link>FileSizeSymbolType.cs</Link>
     </Compile>
