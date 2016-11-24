@@ -1,4 +1,4 @@
-﻿namespace KCSoft.Windows.Helpers.Dump.Enums
+﻿namespace WinLab.Windows.Helpers.Dump.Enums
 {
     public enum DumpType
     {

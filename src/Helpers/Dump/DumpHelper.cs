@@ -1,7 +1,7 @@
 ﻿
-namespace KCSoft.Windows.Helpers.Dump
+namespace WinLab.Windows.Helpers.Dump
 {
-    using KCSoft.Windows.Helpers.Dump.Enums;
+    using WinLab.Windows.Helpers.Dump.Enums;
     using Microsoft.Win32.SafeHandles;
     using System;
     using System.ComponentModel;

@@ -1,5 +1,5 @@
 ﻿
-namespace KCSoft.Windows.Helpers.Console
+namespace WinLab.Windows.Helpers.Console
 {
     using System.Collections.Specialized;
     using System.Diagnostics;

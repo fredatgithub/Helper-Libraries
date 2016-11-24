@@ -1,5 +1,5 @@
 ﻿
-namespace KCSoft.Windows.Helpers.Process
+namespace WinLab.Windows.Helpers.Process
 {
     using System.Diagnostics;
     using System.Runtime.InteropServices;

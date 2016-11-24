@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("KCSoft.Windows.Helpers.Dump")]
+[assembly: AssemblyTitle("WinLab.Windows.Helpers.Dump")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("KCSoft.Windows.Helpers.Dump")]
+[assembly: AssemblyProduct("WinLab.Windows.Helpers.Dump")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
