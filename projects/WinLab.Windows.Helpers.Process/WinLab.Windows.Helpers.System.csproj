@@ -7,8 +7,8 @@
     <ProjectGuid>{3A7DF2AD-0A3E-4509-8D05-D8956B0CCBC9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KCSoft.Windows.Helpers.Process</RootNamespace>
-    <AssemblyName>KCSoft.Windows.Helpers.Process</AssemblyName>
+    <RootNamespace>WinLab.Windows.Helpers.System</RootNamespace>
+    <AssemblyName>WinLab.Windows.Helpers.System</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -33,7 +33,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\src\Helpers\Process\ProcessHelper.cs">
+    <Compile Include="..\..\src\Helpers\System\ProcessHelper.cs">
       <Link>ProcessHelper.cs</Link>
     </Compile>
     <Compile Include="..\WinLab.Windows.Helpers\Properties\AssemblyInfo.shared.cs">

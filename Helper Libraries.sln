@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Helpers.Process", "projects\WinLab.Windows.Helpers.Process\WinLab.Windows.Helpers.Process.csproj", "{3A7DF2AD-0A3E-4509-8D05-D8956B0CCBC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Helpers.System", "projects\WinLab.Windows.Helpers.Process\WinLab.Windows.Helpers.System.csproj", "{3A7DF2AD-0A3E-4509-8D05-D8956B0CCBC9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Helpers.Dump", "projects\WinLab.Windows.Helpers.Dump\WinLab.Windows.Helpers.Dump.csproj", "{52EBF870-859E-4BEF-B92B-A550F897C20D}"
 EndProject

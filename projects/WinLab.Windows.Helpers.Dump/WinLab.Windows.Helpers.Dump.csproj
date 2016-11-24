@@ -7,8 +7,8 @@
     <ProjectGuid>{52EBF870-859E-4BEF-B92B-A550F897C20D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KCSoft.Windows.Helpers.Dump</RootNamespace>
-    <AssemblyName>KCSoft.Windows.Helpers.Dump</AssemblyName>
+    <RootNamespace>WinLab.Windows.Helpers.Dump</RootNamespace>
+    <AssemblyName>WinLab.Windows.Helpers.Dump</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
