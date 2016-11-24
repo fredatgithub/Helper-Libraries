@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3A7DF2AD-0A3E-4509-8D05-D8956B0CCBC9}</ProjectGuid>
+    <ProjectGuid>{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KCSoft.Windows.Helpers.Process</RootNamespace>
-    <AssemblyName>KCSoft.Windows.Helpers.Process</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <RootNamespace>WinLab.Windows.Helpers</RootNamespace>
+    <AssemblyName>WinLab.Windows.Helpers</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,13 +34,26 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\src\Helpers\Process\ProcessHelper.cs">
-      <Link>ProcessHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\WinLab.Windows.Helpers\Properties\AssemblyInfo.shared.cs">
-      <Link>Properties\AssemblyInfo.shared.cs</Link>
-    </Compile>
+    <Compile Include="Properties\AssemblyInfo.shared.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinLab.Windows.Helpers.Console\WinLab.Windows.Helpers.Console.csproj">
+      <Project>{afb5ace3-7029-4cad-8ba9-00c0e64fbf46}</Project>
+      <Name>WinLab.Windows.Helpers.Console</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinLab.Windows.Helpers.Dump\WinLab.Windows.Helpers.Dump.csproj">
+      <Project>{52ebf870-859e-4bef-b92b-a550f897c20d}</Project>
+      <Name>WinLab.Windows.Helpers.Dump</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinLab.Windows.Helpers.IO\WinLab.Windows.Helpers.IO.csproj">
+      <Project>{37880ed2-4d5e-4bc0-b833-2b808a3d381a}</Project>
+      <Name>WinLab.Windows.Helpers.IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinLab.Windows.Helpers.Process\WinLab.Windows.Helpers.Process.csproj">
+      <Project>{3a7df2ad-0a3e-4509-8d05-d8956b0ccbc9}</Project>
+      <Name>WinLab.Windows.Helpers.Process</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

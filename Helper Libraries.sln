@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Helpers.Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Helpers.IO", "projects\WinLab.Windows.Helpers.IO\WinLab.Windows.Helpers.IO.csproj", "{37880ED2-4D5E-4BC0-B833-2B808A3D381A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Helpers", "projects\WinLab.Windows.Helpers\WinLab.Windows.Helpers.csproj", "{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Supporting Projects", "Supporting Projects", "{F2D3E6EF-4993-469D-9732-113F2822A19A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +37,18 @@ Global
 		{37880ED2-4D5E-4BC0-B833-2B808A3D381A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37880ED2-4D5E-4BC0-B833-2B808A3D381A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37880ED2-4D5E-4BC0-B833-2B808A3D381A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A7DF2AD-0A3E-4509-8D05-D8956B0CCBC9} = {F2D3E6EF-4993-469D-9732-113F2822A19A}
+		{52EBF870-859E-4BEF-B92B-A550F897C20D} = {F2D3E6EF-4993-469D-9732-113F2822A19A}
+		{AFB5ACE3-7029-4CAD-8BA9-00C0E64FBF46} = {F2D3E6EF-4993-469D-9732-113F2822A19A}
+		{37880ED2-4D5E-4BC0-B833-2B808A3D381A} = {F2D3E6EF-4993-469D-9732-113F2822A19A}
 	EndGlobalSection
 EndGlobal

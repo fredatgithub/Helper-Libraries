@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("WinLab.Windows.Helpers.Dump")]
+[assembly: AssemblyTitle("WinLab.Windows.Helpers")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("WinLab.Windows.Helpers.Dump")]
+[assembly: AssemblyProduct("WinLab.Windows.Helpers")]
 
 [assembly: ComVisible(false)]
-[assembly: Guid("52ebf870-859e-4bef-b92b-a550f897c20d")]
+[assembly: Guid("bc3ea2d3-0c21-44a8-86d2-3fc7fde7230a")]

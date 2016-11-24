@@ -36,6 +36,9 @@
     <Compile Include="..\..\src\Helpers\Console\ConsoleHelper.cs">
       <Link>ConsoleHelper.cs</Link>
     </Compile>
+    <Compile Include="..\WinLab.Windows.Helpers\Properties\AssemblyInfo.shared.cs">
+      <Link>Properties\AssemblyInfo.shared.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
