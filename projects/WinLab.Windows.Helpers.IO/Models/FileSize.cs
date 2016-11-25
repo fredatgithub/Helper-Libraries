@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using WinLab.Windows.Helpers.IO.Enums;
 using WinLab.Windows.Helpers.IO.Extensions;
 
 namespace WinLab.Windows.Helpers.IO.Models
 {
+    [Guid("80A70F4E-47B6-4374-8370-9FF1A05AB15D")]
     public class FileSize
     {
         private long bytes = 0;

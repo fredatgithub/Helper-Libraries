@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 namespace WinLab.Windows.Helpers.IO
 {
     [Guid("0641B95A-B707-4A4C-B5A5-073CB705BA53")]
-    public class AssemblyFileHelper
+    public class AssemblyHelper
     {
         public static Assembly GetAssemblyFromFile(string filePath)
         {

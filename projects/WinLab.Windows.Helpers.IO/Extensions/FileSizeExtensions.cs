@@ -1,8 +1,10 @@
-﻿using WinLab.Windows.Helpers.IO.Enums;
+﻿using System.Runtime.InteropServices;
+using WinLab.Windows.Helpers.IO.Enums;
 using WinLab.Windows.Helpers.IO.Models;
 
 namespace WinLab.Windows.Helpers.IO.Extensions
 {
+    [Guid("AF30105B-01F7-4DAB-823B-9D1D99C700D7")]
     public static class FileSizeExtensions
     {
         public static string ConvertToBits(this FileSize size, FileSizeSymbolType type) => size.Bits + (type == FileSizeSymbolType.Short ? " b" : " bits");

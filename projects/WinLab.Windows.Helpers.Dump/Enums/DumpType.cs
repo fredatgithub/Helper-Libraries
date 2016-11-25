@@ -1,5 +1,8 @@
-﻿namespace WinLab.Windows.Helpers.Dump.Enums
+﻿using System.Runtime.InteropServices;
+
+namespace WinLab.Windows.Helpers.Dump.Enums
 {
+    [Guid("812BD33C-761B-4342-BF2D-7EE3DA4CE612")]
     public enum DumpType
     {
         MiniDumpNormal = 0,

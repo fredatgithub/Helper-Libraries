@@ -34,24 +34,15 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\src\Helpers\IO\AssemblyFileHelper.cs">
-      <Link>AssemblyFileHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\..\src\Helpers\IO\Enums\FileSizeSymbolType.cs">
-      <Link>FileSizeSymbolType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\src\Helpers\IO\Enums\FileSizeType.cs">
-      <Link>FileSizeType.cs</Link>
-    </Compile>
-    <Compile Include="..\..\src\Helpers\IO\Extensions\FileSizeExtensions.cs">
-      <Link>FileSizeExtensions.cs</Link>
-    </Compile>
-    <Compile Include="..\..\src\Helpers\IO\Models\FileSize.cs">
-      <Link>FileSize.cs</Link>
-    </Compile>
     <Compile Include="..\WinLab.Windows.Helpers\Properties\AssemblyInfo.shared.cs">
       <Link>Properties\AssemblyInfo.shared.cs</Link>
     </Compile>
+    <Compile Include="AssemblyHelper.cs" />
+    <Compile Include="Enums\FileSizeSymbolType.cs" />
+    <Compile Include="Enums\FileSizeType.cs" />
+    <Compile Include="Extensions\FileSizeExtensions.cs" />
+    <Compile Include="FileHelper.cs" />
+    <Compile Include="Models\FileSize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

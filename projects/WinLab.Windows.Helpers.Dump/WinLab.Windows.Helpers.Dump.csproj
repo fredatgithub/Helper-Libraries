@@ -33,15 +33,11 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\src\Helpers\Dump\DumpHelper.cs">
-      <Link>DumpHelper.cs</Link>
-    </Compile>
-    <Compile Include="..\..\src\Helpers\Dump\Enums\DumpType.cs">
-      <Link>DumpType.cs</Link>
-    </Compile>
     <Compile Include="..\WinLab.Windows.Helpers\Properties\AssemblyInfo.shared.cs">
       <Link>Properties\AssemblyInfo.shared.cs</Link>
     </Compile>
+    <Compile Include="DumpHelper.cs" />
+    <Compile Include="Enums\DumpType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
