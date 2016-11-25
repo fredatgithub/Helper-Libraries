@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{FFDF0C78-16C4-482E-B721-A329903022FC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WinLab.Windows.Helpers</RootNamespace>
-    <AssemblyName>WinLab.Windows.Helpers</AssemblyName>
+    <RootNamespace>WinLab.Test</RootNamespace>
+    <AssemblyName>WinLab.Test</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -32,34 +33,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="WinLab.Windows.Helpers">
+      <HintPath>..\..\Release Build\WinLab.Windows.Helpers.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.shared.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WinLab.Windows.Helpers.Console\WinLab.Windows.Helpers.Console.csproj">
-      <Project>{afb5ace3-7029-4cad-8ba9-00c0e64fbf46}</Project>
-      <Name>WinLab.Windows.Helpers.Console</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WinLab.Windows.Helpers.Dump\WinLab.Windows.Helpers.Dump.csproj">
-      <Project>{52ebf870-859e-4bef-b92b-a550f897c20d}</Project>
-      <Name>WinLab.Windows.Helpers.Dump</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WinLab.Windows.Helpers.IO\WinLab.Windows.Helpers.IO.csproj">
-      <Project>{37880ed2-4d5e-4bc0-b833-2b808a3d381a}</Project>
-      <Name>WinLab.Windows.Helpers.IO</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WinLab.Windows.Helpers.Process\WinLab.Windows.Helpers.System.csproj">
-      <Project>{3a7df2ad-0a3e-4509-8d05-d8956b0ccbc9}</Project>
-      <Name>WinLab.Windows.Helpers.System</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>"$(ProjectDir)ILMerge.exe" /out:"$(SolutionDir)Release Build\$(TargetFileName)" "$(TargetPath)" "$(TargetDir)WinLab.Windows.Helpers.Console.dll" "$(TargetDir)WinLab.Windows.Helpers.Dump.dll" "$(TargetDir)WinLab.Windows.Helpers.IO.dll" "$(TargetDir)WinLab.Windows.Helpers.System.dll" "$(TargetDir)System.Management.Automation.dll"
-del /F /S /Q "$(SolutionDir)Release Build\*.pdb"</PostBuildEvent>
-  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -15,6 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Helpers", "p
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Supporting Projects", "Supporting Projects", "{F2D3E6EF-4993-469D-9732-113F2822A19A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Test", "projects\WinLab.Test\WinLab.Test.csproj", "{FFDF0C78-16C4-482E-B721-A329903022FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A} = {BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +46,10 @@ Global
 		{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDF0C78-16C4-482E-B721-A329903022FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDF0C78-16C4-482E-B721-A329903022FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDF0C78-16C4-482E-B721-A329903022FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDF0C78-16C4-482E-B721-A329903022FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
