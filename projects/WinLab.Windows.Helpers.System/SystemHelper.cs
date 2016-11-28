@@ -15,36 +15,34 @@ namespace WinLab.Windows.Helpers.System
 
         public static bool IsAntivirusInstalled()
         {
-            return GetInstalledAntivirusProducts().Count > 0;
+            return GetAntivirusDetails().Count > 0;
         }
 
         public static ObservableCollection<Antivirus> GetAntivirusDetails()
         {
-            return GetInstalledAntivirusProducts();
-        }
-
-        private static ObservableCollection<Antivirus> GetInstalledAntivirusProducts()
-        {
             var antivirusCollection = new ObservableCollection<Antivirus>();
             using (var searcher = new ManagementObjectSearcher(@"\\" + Environment.MachineName + SecurityCenterLocation, AntivirusProductSearchQuery))
             {
-                var searcherInstance = searcher.Get();
-                foreach (var instance in searcherInstance)
-                {
-                    antivirusCollection.Add(new Antivirus { ID = instance["instanceGuid"].ToString(), DisplayName = instance["displayName"].ToString() });
-                }
+                GetInstalledAntivirusProducts(searcher, ref antivirusCollection);
             }
 
             using (var searcher = new ManagementObjectSearcher(@"\\" + Environment.MachineName + SecurityCenter2Location, AntivirusProductSearchQuery))
             {
-                var searcherInstance = searcher.Get();
+                GetInstalledAntivirusProducts(searcher, ref antivirusCollection);
+            }
+
+            return antivirusCollection;
+        }
+
+        private static void GetInstalledAntivirusProducts(ManagementObjectSearcher searcher, ref ObservableCollection<Antivirus> antivirusCollection)
+        {
+            using (var searcherInstance = searcher.Get())
+            {
                 foreach (var instance in searcherInstance)
                 {
                     antivirusCollection.Add(new Antivirus { ID = instance["instanceGuid"].ToString(), DisplayName = instance["displayName"].ToString() });
                 }
             }
-
-            return antivirusCollection;
         }
     }
 }
