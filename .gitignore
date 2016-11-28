@@ -5,8 +5,8 @@
 *.suo
 */bin/*
 */obj/*
-/projects/WinLab.Windows.Helpers.Process/bin/Release
-/projects/WinLab.Windows.Helpers.Process/obj/Release
+/projects/WinLab.Windows.Helpers.System/bin/Release
+/projects/WinLab.Windows.Helpers.System/obj/Release
 /projects/WinLab.Windows.Helpers.IO/obj/Release
 /projects/WinLab.Windows.Helpers.IO/bin/Release
 /projects/WinLab.Windows.Helpers.Dump/obj/Release
@@ -16,8 +16,8 @@
 /projects/WinLab.Windows.Helpers/obj/Release
 /projects/WinLab.Windows.Helpers/bin/Release
 /projects/WinLab.Windows.Helpers/bin/Debug
-/projects/WinLab.Windows.Helpers.Process/obj/Debug
-/projects/WinLab.Windows.Helpers.Process/bin/Debug
+/projects/WinLab.Windows.Helpers.System/obj/Debug
+/projects/WinLab.Windows.Helpers.System/bin/Debug
 /projects/WinLab.Windows.Helpers.IO/obj/Debug
 /projects/WinLab.Windows.Helpers.IO/bin/Debug
 /projects/WinLab.Windows.Helpers.Dump/obj/Debug
@@ -27,3 +27,5 @@
 /projects/WinLab.Windows.Helpers/obj/Debug
 /projects/WinLab.Test/obj/Release
 /projects/WinLab.Test/bin/Release
+/projects/WinLab.Test/bin/Debug
+/projects/WinLab.Test/obj/Debug

@@ -50,7 +50,7 @@
       <Project>{37880ed2-4d5e-4bc0-b833-2b808a3d381a}</Project>
       <Name>WinLab.Windows.Helpers.IO</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WinLab.Windows.Helpers.Process\WinLab.Windows.Helpers.System.csproj">
+    <ProjectReference Include="..\WinLab.Windows.Helpers.System\WinLab.Windows.Helpers.System.csproj">
       <Project>{3a7df2ad-0a3e-4509-8d05-d8956b0ccbc9}</Project>
       <Name>WinLab.Windows.Helpers.System</Name>
     </ProjectReference>
