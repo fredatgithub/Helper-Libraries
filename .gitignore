@@ -29,3 +29,6 @@
 /projects/WinLab.Test/bin/Release
 /projects/WinLab.Test/bin/Debug
 /projects/WinLab.Test/obj/Debug
+/.vs/config/applicationhost.config
+/projects/WinLab.Windows.Xaml.Converters/obj/Release
+/projects/WinLab.Windows.Xaml.Library.Controls/obj/Release

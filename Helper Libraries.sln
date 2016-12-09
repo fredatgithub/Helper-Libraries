@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Helpers.IO", "projects\WinLab.Windows.Helpers.IO\WinLab.Windows.Helpers.IO.csproj", "{37880ED2-4D5E-4BC0-B833-2B808A3D381A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Helpers", "projects\WinLab.Windows.Helpers\WinLab.Windows.Helpers.csproj", "{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{02960806-2738-4FD2-AA37-31C7F83B5B08} = {02960806-2738-4FD2-AA37-31C7F83B5B08}
+		{A8955915-4ABC-4E62-BAD8-2131407CC347} = {A8955915-4ABC-4E62-BAD8-2131407CC347}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Supporting Projects", "Supporting Projects", "{F2D3E6EF-4993-469D-9732-113F2822A19A}"
 EndProject
@@ -19,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Test", "projects\Win
 	ProjectSection(ProjectDependencies) = postProject
 		{BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A} = {BC3EA2D3-0C21-44A8-86D2-3FC7FDE7230A}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Xaml.Library.Controls", "projects\WinLab.Windows.Xaml.Library.Controls\WinLab.Windows.Xaml.Library.Controls.csproj", "{02960806-2738-4FD2-AA37-31C7F83B5B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLab.Windows.Xaml.Converters", "projects\WinLab.Windows.Xaml.Converters\WinLab.Windows.Xaml.Converters.csproj", "{A8955915-4ABC-4E62-BAD8-2131407CC347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +58,14 @@ Global
 		{FFDF0C78-16C4-482E-B721-A329903022FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFDF0C78-16C4-482E-B721-A329903022FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFDF0C78-16C4-482E-B721-A329903022FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02960806-2738-4FD2-AA37-31C7F83B5B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02960806-2738-4FD2-AA37-31C7F83B5B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02960806-2738-4FD2-AA37-31C7F83B5B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02960806-2738-4FD2-AA37-31C7F83B5B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8955915-4ABC-4E62-BAD8-2131407CC347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8955915-4ABC-4E62-BAD8-2131407CC347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8955915-4ABC-4E62-BAD8-2131407CC347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8955915-4ABC-4E62-BAD8-2131407CC347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +75,7 @@ Global
 		{52EBF870-859E-4BEF-B92B-A550F897C20D} = {F2D3E6EF-4993-469D-9732-113F2822A19A}
 		{AFB5ACE3-7029-4CAD-8BA9-00C0E64FBF46} = {F2D3E6EF-4993-469D-9732-113F2822A19A}
 		{37880ED2-4D5E-4BC0-B833-2B808A3D381A} = {F2D3E6EF-4993-469D-9732-113F2822A19A}
+		{02960806-2738-4FD2-AA37-31C7F83B5B08} = {F2D3E6EF-4993-469D-9732-113F2822A19A}
+		{A8955915-4ABC-4E62-BAD8-2131407CC347} = {F2D3E6EF-4993-469D-9732-113F2822A19A}
 	EndGlobalSection
 EndGlobal
