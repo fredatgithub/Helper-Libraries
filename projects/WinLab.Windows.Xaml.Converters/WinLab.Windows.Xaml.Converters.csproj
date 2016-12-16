@@ -39,6 +39,8 @@
     <Compile Include="..\WinLab.Windows.Helpers\Properties\AssemblyInfo.shared.cs">
       <Link>Properties\AssemblyInfo.shared.cs</Link>
     </Compile>
+    <Compile Include="BoolToVisibilityConverter.cs" />
+    <Compile Include="BoolToVisibilityConverterEx.cs" />
     <Compile Include="NullOrEmptyStringToVisibilityConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
